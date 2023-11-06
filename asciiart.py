@@ -71,9 +71,9 @@ def print_ascii_art(image, title):
   # Print the ASCII art to the console
   if title is None:
     if width > height:
-      print(f"Generating ASCII art for Landscape Image")
+      print("Generating ASCII art for Landscape Image")
     else:
-      print(f"Generating ASCII art for Portrait Image")
+      print("Generating ASCII art for Portrait Image")
   else:
     print(f"Generating ASCII art for {title}")
   print()
