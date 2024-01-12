@@ -63,7 +63,7 @@ def print_ascii_art(image, title):
       r, g, b = pixels[column, row]
       brightness = sum([r, g, b]) / 3
 
-      # Brightness ranges from 0..255. Divide by 25 and truncate to an integer to get 0..10.
+      # Brightness ranges from 0 -> 255. Divide by 25 and truncate to an integer to get 0 -> 10.
       # Use this to index into the list of ASCII characters
       ascii_art += ascii_chars[int(brightness / 25)]
     ascii_art += "\n"
