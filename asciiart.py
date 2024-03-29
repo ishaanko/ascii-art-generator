@@ -1,5 +1,3 @@
-# ASCII Art Generator
-
 from PIL import Image
 import requests
 import time
