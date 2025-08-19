@@ -1,2 +1,4 @@
 # ASCII art generator
-Uses Python and takes an image, more specifically the image address, and generates ASCII Art from it!
+Uses Python, takes an image, specifically the image address, and generates ASCII Art from it
+
+This was my AP CSP Creative Project/Task.
