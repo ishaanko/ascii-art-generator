@@ -3,10 +3,10 @@ import requests
 import time
 
 # Defines the list of ASCII characters used to represent brightness levels in images
-# Characters range from less dense to denser representing darker to brighter pixels
+# Characters range from less dense to denser, representing darker to brighter pixels
 ascii_chars = [" ", ".", ",", ":", ";", "+", "*", "?", "%", "S", "#", "@"]
 
-# Sample images (licensed as creative commons) along with descriptive titles.
+# Sample images (licensed as Creative Commons) along with descriptive titles.
 samples = [
   # Horizontal image, photo of a Zebra in the African savanna
   ("https://c0.wallpaperflare.com/preview/193/17/205/zebra-in-savanna.jpg", "Zebra in African savanna"),
@@ -39,8 +39,8 @@ def print_ascii_art(image, title):
   width, height = image.size
   aspect_ratio = height / width
   if width > height:
-    # Landscape oriented image
-    # Ensure image is 120px wide and can fit typical width of terminal windows.
+    # Landscape-oriented image
+    # Ensure image is 120px wide and can fit the typical width of terminal windows.
     width = 120
     height = int(width * aspect_ratio * 0.55)
   else:
